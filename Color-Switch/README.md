@@ -4,7 +4,7 @@
  
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/Color-Switch/master/1.png)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/Color-Switch/1.png)
 
 
 ## Tech Stack
