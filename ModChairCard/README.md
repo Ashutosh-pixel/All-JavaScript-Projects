@@ -5,9 +5,9 @@ An animated shopping card 🛍️🛒
  
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/ModChairCard/master/1.png)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/ModChairCard/1.png)
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/ModChairCard/master/2.png)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/ModChairCard/2.png)
 
 
 ## Tech Stack
