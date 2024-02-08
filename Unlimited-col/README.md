@@ -4,7 +4,7 @@
  
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/Unlimited-col/master/2024-01-1018-28-45-ezgif.com-video-to-gif-converter.gif)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/Unlimited-col/2024-01-1018-28-45-ezgif.com-video-to-gif-converter.gif)
 
 
 
