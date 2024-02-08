@@ -4,7 +4,7 @@
  
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/Bmi-Calc/master/1.png)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/Bmi-Calc/1.png)
 
 
 
