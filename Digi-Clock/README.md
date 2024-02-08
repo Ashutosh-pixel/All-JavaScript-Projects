@@ -4,7 +4,7 @@
  
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/Digi-Clock/master/2.png)
+![App Screenshot](https://raw.githubusercontent.com/Ashutosh-pixel/All-JavaScript-Projects/main/Digi-Clock/2.png)
 
 
 ## Tech Stack
