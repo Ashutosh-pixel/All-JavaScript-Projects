@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.selection-fluid-main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.section{
+    width:863px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    padding: 100px 0;
+    
+}
+.section-fluid{
+    position: relative;
+    width: 100%;
+}
+.info-wrap{
+    margin-left: 500px;
+    text-align: left;
+    color: #fff;
+}
+/* .section-left{
+    position: absolute;
+    width:500px;
+    height: 410px;
+    
+} */
+.img-wrap{
+    position: absolute;
+    width:500px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+#img1{
+    background-image: url(images/chair1.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+#img2{
+    background-image: url(images/chair2.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+#img3{
+    background-image: url(images/chair3.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+#img4{
+    background-image: url(images/chair4.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+#img5{
+    background-image: url(images/chair5.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+#img6{
+    background-image: url(images/chair6.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 0;
+}
+.info-wrap h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1.2;
+    /* color: #fff; */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.info-wrap h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.2;
+    /* color: #fff; */
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+}
+.info-wrap h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.2;
+    /* color: #fff; */
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.info-wrap h4 span{
+    text-decoration: line-through;
+    font-size: 20px;
+    opacity: 0.6;
+    padding-left: 15px;
+}
+/* .color-pallete{
+    position: relative;
+    margin-left: 500px;
+} */
+.color1{
+    position: relative;
+    margin-left: 500px;
+}
+
+[type="radio"]:checked ,[type="radio"]:not(:checked){
+    visibility: hidden;
+    position: absolute;
+}
+.desc-btn:checked + label, .desc-btn:not(:checked) + label{
+    opacity: 0.5;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    /* color: #fff; */
+    margin-right: 25px;
+    text-transform: capitalize;
+}
+.decor{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.decor p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    /* color: #fff; */
+    margin: 0;
+}
+.desc-sec-accor-2{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+}
+.section-inline p span{
+    font-size: 30px;
+    line-height: 1.1;
+}
+.section-inline{
+    display: inline-block;
+    margin-right: 20px;
+}
+h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    /* color: #fff; */
+    margin-top: 0;
+    margin-bottom: 20px
+}
+.desc-btn:checked + label{
+    opacity: 1;
+}
+#desc-1:checked ~ .desc-sec-accor-1{
+    opacity: 1;
+    /* transform: translateY(0); */
+    transition: transform 0.5s linear;
+}
+#desc-1:not(:checked) ~.desc-sec-accor-1{
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease;
+}
+#desc-2:checked ~ .desc-sec-accor-2{
+    opacity: 1;
+    /* transform: translateY(0); */
+    transition: transform 0.5s linear;
+}
+#desc-2:not(:checked) ~.desc-sec-accor-2{
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease;
+}
+.color-btn:checked +label, .color-btn:not(:checked) + label{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    color: #ffeba7;
+    margin-right: 10px;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.desc-btn:not(:checked) + label:hover{
+    opacity: 0.8;
+}
+label.color1{
+    background-image: url(images/color1.jpg);    
+}
+label.color2{
+    background-image: url(images/color2.jpg);    
+}
+label.color3{
+    background-image: url(images/color3.jpg);    
+}
+label.color4{
+    background-image: url(images/color4.jpg);    
+}
+label.color5{
+    background-image: url(images/color5.jpg);    
+}
+label.color6{
+    background-image: url(images/color6.jpg);    
+}
+
+.color-btn:checked+label{
+    border: 3px solid transparent;
+    border-color: #434343;
+    scale: 1.1;
+    transition: scale 0.5s;
+}
+.color-btn1:checked ~ #img1 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn1:not(:checked) ~ #img1{
+    opacity: 0;
+}
+
+.color-btn2:checked ~ #img2 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn2:not(:checked) ~ #img2{
+    opacity: 0;
+}
+
+.color-btn3:checked ~ #img3 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn3:not(:checked) ~ #img3{
+    opacity: 0;
+}
+
+.color-btn4:checked ~ #img4 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn4:not(:checked) ~ #img4{
+    opacity: 0;
+}
+
+.color-btn5:checked ~ #img5 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn5:not(:checked) ~ #img5{
+    opacity: 0;
+}
+
+.color-btn6:checked ~ #img6 {
+    opacity: 1;
+    transition: opacity 0.05s;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-delay: 0.5s;
+}
+.color-btn6:not(:checked) ~ #img6{
+    opacity: 0;
+}
+@keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0) rotate(-1deg);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0) rotate(2deg);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-3px, 0, 0) rotate(-3deg);
+    }
+    40%,
+    60% {
+      transform: translate3d(3px, 0, 0) rotate(3deg);
+    }
+  }  
+.back-color{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: linear-gradient(196deg, #f1a9a9, #e66767);
+    transition: all 250ms linear;
+    transition-delay: 300ms;
+}
+.chair1{
+    opacity: 0;
+}
+.chair2{
+    opacity: 0;
+    background-image: linear-gradient(196deg, #4c4c4c, #262626);
+}
+.chair3{
+    opacity: 0;
+    background-image: linear-gradient(196deg, #8a9fb2, #5f7991);
+}
+.chair4{
+    opacity: 0;
+    background-image: linear-gradient(196deg, #97afc3, #6789a7);
+}
+.chair5{
+    opacity: 0;
+    background-image: linear-gradient(196deg, #afa6a0, #8c7f76);
+}
+.chair6{
+    opacity: 0;
+    background-image: linear-gradient(196deg, #aaadac, #838786);
+}
+
+.color-btn1:checked ~ .chair1{
+    opacity: 1;
+
+}
+.color-btn2:checked ~ .chair2{
+    opacity: 1;
+
+}
+.color-btn3:checked ~ .chair3{
+    opacity: 1;
+
+}
+.color-btn4:checked ~ .chair4{
+    opacity: 1;
+
+}
+.color-btn5:checked ~ .chair5{
+    opacity: 1;
+
+}
+.color-btn6:checked ~ .chair6{
+    opacity: 1;
+
+}
+
+@media screen and (max-width:500px) {
+    .selection-fluid-main{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    .section{
+        width:350px;
+        margin: 0 auto;
+    }
+    
+    .info-wrap{
+        margin-left: 0;
+        margin-top: 90%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .img-wrap{
+        width:100%;
+        height: 35%;
+    }
+    .color1{
+        margin-left: 30px;
+    }
+    
+}

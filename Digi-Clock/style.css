@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#hour, #dot, #minute{
+    font-size:6rem
+}
+
+.ano-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.datedaymonth{
+    margin-left: 50px;
+}
+

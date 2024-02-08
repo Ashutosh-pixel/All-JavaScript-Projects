@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5b6266;
+    color: white;
+}
+
+.container{
+    /* width: 40%;
+    height: 100%; */
+    /* margin-left: 100px;
+    padding-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    position: relative;
+    margin-bottom: 1em;
+    /* left: 50px; */
+}
+
+form .label{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+form .label label{
+    font-size: larger;
+    font-weight: 300;
+}
+
+form #result{
+    position: relative;
+    left: 1em;
+    margin-top: 1em;
+    font-size:3em;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+.BMIGuide{
+    margin-top: 2em;
+    position: relative;
+    left: 2em;
+}
+
+button{
+    position: relative;
+    left: 10em;
+    width: 7em;
+    height: 3em;
+    border-radius: 5px;
+}
+.BMIGuide h3{
+    margin: 1em;
+}
+.BMIGuide p{
+    margin: 1em;
+    font-size: large;
+    font-weight:500;
+}
